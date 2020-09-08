@@ -29,7 +29,7 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        this.networkConnectivityStatus()
+        networkConnectivityStatus()
 
         login_button_login.setOnClickListener {
             performRegister()
